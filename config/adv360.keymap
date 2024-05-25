@@ -40,18 +40,18 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1     &kp N2            &kp N3             &kp N4  &kp N5              &tog 0                                                                                &mo 3  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp MINUS
-   &kp TAB      &kp Q      &kp W             &kp E              &kp R   &kp T              &tog 1                                                                                &none   &kp Y     &kp U      &kp I    &kp O      &kp P   &kp BSLH
+ &kp EQUAL     &kp N1     &kp N2            &kp N3             &kp N4  &kp N5               &to 0                                                                                &mo 3  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp MINUS
+   &kp TAB      &kp Q      &kp W             &kp E              &kp R   &kp T               &to 1                                                                                &none   &kp Y     &kp U      &kp I    &kp O      &kp P   &kp BSLH
    &kp ESC      &kp A      &kp S             &kp D              &kp F   &kp G               &none  &kp LEFT_COMMAND  &kp LALT                   &kp RALT  &kp RIGHT_COMMAND      &none   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z      &kp X             &kp C              &kp V   &kp B                                        &kp HOME                  &kp PG_UP                                 &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp BSPC  &kp LEFT_CONTROL   &kp END                  &kp PG_DN          &kp ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT      &mo 2
+     &to 2  &kp GRAVE  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp BSPC  &kp LEFT_CONTROL   &kp END                  &kp PG_DN          &kp ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT      &mo 2
             >;
         };
 
         layer_MacOS {
             bindings = <
- &kp EQUAL     &kp N1     &kp N2            &kp N3             &kp N4  &kp N5              &tog 0                                                                        &mo 3  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp MINUS
-   &kp TAB      &kp Q      &kp W             &kp E              &kp R   &kp T              &tog 1                                                                        &none   &kp Y     &kp U      &kp I    &kp O      &kp P   &kp BSLH
+ &kp EQUAL     &kp N1     &kp N2            &kp N3             &kp N4  &kp N5               &to 0                                                                        &mo 3  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp MINUS
+   &kp TAB      &kp Q      &kp W             &kp E              &kp R   &kp T               &to 1                                                                        &none   &kp Y     &kp U      &kp I    &kp O      &kp P   &kp BSLH
    &kp ESC      &kp A      &kp S             &kp D              &kp F   &kp G               &none         &kp LCTRL  &kp LALT                   &kp RALT  &kp RCTRL      &none   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z      &kp X             &kp C              &kp V   &kp B                                        &kp HOME                  &kp PG_UP                         &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
      &mo 2  &kp GRAVE  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp BSPC  &kp LEFT_COMMAND   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT      &mo 2
@@ -60,8 +60,8 @@
 
         layer_fn {
             bindings = <
- &kp F1                &kp F2        &kp F3  &kp F4  &kp F5  &kp F6            &tog 0                                                             &mo 3          &kp F7        &kp F8           &kp F9     &kp F10  &kp F11  &kp F12
- &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans  &trans  &trans            &tog 1                                                             &none          &trans        &trans           &trans      &trans   &trans   &trans
+ &kp F1                &kp F2        &kp F3  &kp F4  &kp F5  &kp F6             &to 0                                                             &mo 3          &kp F7        &kp F8           &kp F9     &kp F10  &kp F11  &kp F12
+ &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans  &trans  &trans             &to 1                                                             &none          &trans        &trans           &trans      &trans   &trans   &trans
  &trans                &trans        &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans             &none  &kp C_PREVIOUS  &kp C_VOL_UP  &kp C_VOLUME_UP  &kp C_NEXT   &trans   &trans
  &trans                &trans        &trans  &trans  &trans  &trans                            &trans                  &trans                                    &trans    &kp K_MUTE           &trans      &trans   &trans   &trans
  &trans                &trans        &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &kp K_PLAY_PAUSE                        &trans           &trans      &trans   &trans    &mo 2
